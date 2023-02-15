@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		2C96418F299CDC1C001722D8 /* ZoobTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96418E299CDC1C001722D8 /* ZoobTasksApp.swift */; };
-		2C964191299CDC1C001722D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C964190299CDC1C001722D8 /* ContentView.swift */; };
 		2C964193299CDC1F001722D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C964192299CDC1F001722D8 /* Assets.xcassets */; };
 		2C964196299CDC1F001722D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C964195299CDC1F001722D8 /* Preview Assets.xcassets */; };
+		2C96419D299CDC4C001722D8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96419C299CDC4C001722D8 /* Constants.swift */; };
+		2C9641A0299CDC5A001722D8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C96419F299CDC5A001722D8 /* ViewModel.swift */; };
+		2C9641A5299CDC64001722D8 /* RowOfList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641A2299CDC64001722D8 /* RowOfList.swift */; };
+		2C9641A6299CDC64001722D8 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641A3299CDC64001722D8 /* ProfileView.swift */; };
+		2C9641A7299CDC64001722D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641A4299CDC64001722D8 /* ContentView.swift */; };
+		2C9641AA299CDC7D001722D8 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641A9299CDC7D001722D8 /* Model.swift */; };
+		2C9641AF299CDC86001722D8 /* NativeAdViewSmall.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C9641AC299CDC86001722D8 /* NativeAdViewSmall.xib */; };
+		2C9641B0299CDC86001722D8 /* Native_Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641AD299CDC86001722D8 /* Native_Ad.swift */; };
+		2C9641B1299CDC86001722D8 /* Interstitial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9641AE299CDC86001722D8 /* Interstitial.swift */; };
+		CBFE5A56D4F55DE194033190 /* Pods_ZoobTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63B2639F3927E8E1CF431D5 /* Pods_ZoobTasks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C96418B299CDC1C001722D8 /* ZoobTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoobTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C96418E299CDC1C001722D8 /* ZoobTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoobTasksApp.swift; sourceTree = "<group>"; };
-		2C964190299CDC1C001722D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C964192299CDC1F001722D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C964195299CDC1F001722D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C96419C299CDC4C001722D8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2C96419F299CDC5A001722D8 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2C9641A2299CDC64001722D8 /* RowOfList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowOfList.swift; sourceTree = "<group>"; };
+		2C9641A3299CDC64001722D8 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2C9641A4299CDC64001722D8 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C9641A9299CDC7D001722D8 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2C9641AC299CDC86001722D8 /* NativeAdViewSmall.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdViewSmall.xib; sourceTree = "<group>"; };
+		2C9641AD299CDC86001722D8 /* Native_Ad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Native_Ad.swift; sourceTree = "<group>"; };
+		2C9641AE299CDC86001722D8 /* Interstitial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interstitial.swift; sourceTree = "<group>"; };
+		2C9641B2299CDD7C001722D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D63B2639F3927E8E1CF431D5 /* Pods_ZoobTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoobTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98BDB860B4655244E2268F4 /* Pods-ZoobTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoobTasks.debug.xcconfig"; path = "Target Support Files/Pods-ZoobTasks/Pods-ZoobTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		F448E6085214909AC1B907BE /* Pods-ZoobTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoobTasks.release.xcconfig"; path = "Target Support Files/Pods-ZoobTasks/Pods-ZoobTasks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBFE5A56D4F55DE194033190 /* Pods_ZoobTasks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +59,8 @@
 			children = (
 				2C96418D299CDC1C001722D8 /* ZoobTasks */,
 				2C96418C299CDC1C001722D8 /* Products */,
+				3E535E63EE81B15D10095555 /* Pods */,
+				CE2FF3055C7CDCB04A2D8C11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +75,13 @@
 		2C96418D299CDC1C001722D8 /* ZoobTasks */ = {
 			isa = PBXGroup;
 			children = (
+				2C9641B2299CDD7C001722D8 /* Info.plist */,
 				2C96418E299CDC1C001722D8 /* ZoobTasksApp.swift */,
-				2C964190299CDC1C001722D8 /* ContentView.swift */,
+				2C96419C299CDC4C001722D8 /* Constants.swift */,
+				2C96419E299CDC5A001722D8 /* ViewModel */,
+				2C9641A1299CDC64001722D8 /* Views */,
+				2C9641A8299CDC7D001722D8 /* Model */,
+				2C9641AB299CDC86001722D8 /* Ads */,
 				2C964192299CDC1F001722D8 /* Assets.xcassets */,
 				2C964194299CDC1F001722D8 /* Preview Content */,
 			);
@@ -67,6 +96,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2C96419E299CDC5A001722D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2C96419F299CDC5A001722D8 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C9641A1299CDC64001722D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C9641A2299CDC64001722D8 /* RowOfList.swift */,
+				2C9641A3299CDC64001722D8 /* ProfileView.swift */,
+				2C9641A4299CDC64001722D8 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C9641A8299CDC7D001722D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C9641A9299CDC7D001722D8 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C9641AB299CDC86001722D8 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				2C9641AC299CDC86001722D8 /* NativeAdViewSmall.xib */,
+				2C9641AD299CDC86001722D8 /* Native_Ad.swift */,
+				2C9641AE299CDC86001722D8 /* Interstitial.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		3E535E63EE81B15D10095555 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E98BDB860B4655244E2268F4 /* Pods-ZoobTasks.debug.xcconfig */,
+				F448E6085214909AC1B907BE /* Pods-ZoobTasks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE2FF3055C7CDCB04A2D8C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D63B2639F3927E8E1CF431D5 /* Pods_ZoobTasks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C964199299CDC1F001722D8 /* Build configuration list for PBXNativeTarget "ZoobTasks" */;
 			buildPhases = (
+				9C9BD389A4923BDEA347E51D /* [CP] Check Pods Manifest.lock */,
 				2C964187299CDC1C001722D8 /* Sources */,
 				2C964188299CDC1C001722D8 /* Frameworks */,
 				2C964189299CDC1C001722D8 /* Resources */,
+				2C40CF50590820F7F3882546 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C9641AF299CDC86001722D8 /* NativeAdViewSmall.xib in Resources */,
 				2C964196299CDC1F001722D8 /* Preview Assets.xcassets in Resources */,
 				2C964193299CDC1F001722D8 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C40CF50590820F7F3882546 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoobTasks/Pods-ZoobTasks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZoobTasks/Pods-ZoobTasks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZoobTasks/Pods-ZoobTasks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9BD389A4923BDEA347E51D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZoobTasks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C964187299CDC1C001722D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C964191299CDC1C001722D8 /* ContentView.swift in Sources */,
+				2C9641AA299CDC7D001722D8 /* Model.swift in Sources */,
 				2C96418F299CDC1C001722D8 /* ZoobTasksApp.swift in Sources */,
+				2C9641B1299CDC86001722D8 /* Interstitial.swift in Sources */,
+				2C9641A0299CDC5A001722D8 /* ViewModel.swift in Sources */,
+				2C9641A7299CDC64001722D8 /* ContentView.swift in Sources */,
+				2C9641A6299CDC64001722D8 /* ProfileView.swift in Sources */,
+				2C9641B0299CDC86001722D8 /* Native_Ad.swift in Sources */,
+				2C96419D299CDC4C001722D8 /* Constants.swift in Sources */,
+				2C9641A5299CDC64001722D8 /* RowOfList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -263,6 +397,7 @@
 		};
 		2C96419A299CDC1F001722D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98BDB860B4655244E2268F4 /* Pods-ZoobTasks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -272,6 +407,7 @@
 				DEVELOPMENT_TEAM = 4Q8GDM8WM4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoobTasks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,6 +428,7 @@
 		};
 		2C96419B299CDC1F001722D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F448E6085214909AC1B907BE /* Pods-ZoobTasks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +438,7 @@
 				DEVELOPMENT_TEAM = 4Q8GDM8WM4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoobTasks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
